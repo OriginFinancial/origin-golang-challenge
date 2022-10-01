@@ -8,8 +8,7 @@ import (
 
 func New() http.Handler {
 	router := mux.NewRouter()
-
-	registerHelloHandler(router)
+	registerPokemonHandler(router)
 
 	return router
 }
