@@ -9,7 +9,5 @@ import (
 func New() http.Handler {
 	router := mux.NewRouter()
 
-	registerHelloHandler(router)
-
 	return router
 }
